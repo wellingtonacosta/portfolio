@@ -619,7 +619,14 @@ color: red;
 .portfolio .portfolio-item-inner .portfolio-img img {
   width:100%;
   display: block;
+  transition: all 0.3s ease;
 }
+
+.portfolio .portfolio-item-inner .portfolio-img img:hover {
+  transform: scale(1.05);
+  color: red;
+}
+
 
 /* Contact */
 
